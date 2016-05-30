@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5909AB91CF99A5400F23BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909AB81CF99A5400F23BF2 /* AppDelegate.swift */; };
+		C5909ABB1CF99A5400F23BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909ABA1CF99A5400F23BF2 /* ViewController.swift */; };
+		C5909ABE1CF99A5400F23BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5909ABC1CF99A5400F23BF2 /* Main.storyboard */; };
+		C5909AC01CF99A5400F23BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5909ABF1CF99A5400F23BF2 /* Assets.xcassets */; };
+		C5909AC31CF99A5400F23BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5909AC11CF99A5400F23BF2 /* LaunchScreen.storyboard */; };
+		C5909ACE1CF99A5400F23BF2 /* StalkYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909ACD1CF99A5400F23BF2 /* StalkYouTests.swift */; };
+		C5909AD91CF99A5400F23BF2 /* StalkYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909AD81CF99A5400F23BF2 /* StalkYouUITests.swift */; };
+		C5909AEF1CF9A25F00F23BF2 /* ShadowedContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909AEE1CF9A25F00F23BF2 /* ShadowedContainerView.swift */; };
+		C5909AF11CF9A47400F23BF2 /* PostCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF01CF9A47400F23BF2 /* PostCard.xib */; };
+		C5909AF31CF9A5E600F23BF2 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909AF21CF9A5E600F23BF2 /* PostCard.swift */; };
+		C5909AF91CF9A7E500F23BF2 /* Lobster_1.3.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF41CF9A7E500F23BF2 /* Lobster_1.3.otf */; };
+		C5909AFA1CF9A7E500F23BF2 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF51CF9A7E500F23BF2 /* Montserrat-Bold.otf */; };
+		C5909AFB1CF9A7E500F23BF2 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF61CF9A7E500F23BF2 /* Montserrat-Light.otf */; };
+		C5909AFC1CF9A7E500F23BF2 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF71CF9A7E500F23BF2 /* Montserrat-Regular.otf */; };
+		C5909AFD1CF9A7E500F23BF2 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5909AF81CF9A7E500F23BF2 /* Montserrat-SemiBold.otf */; };
+		C5909AFF1CF9AA1200F23BF2 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909AFE1CF9AA1200F23BF2 /* BaseRouter.swift */; };
+		C5909B011CF9AD0700F23BF2 /* InstagramRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909B001CF9AD0700F23BF2 /* InstagramRouter.swift */; };
+		C5909B031CF9B48600F23BF2 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909B021CF9B48600F23BF2 /* MediaModel.swift */; };
+		C5909B051CF9B49600F23BF2 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5909B041CF9B49600F23BF2 /* ResponseModel.swift */; };
+		C5DA81891CFAE8D00038E822 /* ArrayTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA81881CFAE8D00038E822 /* ArrayTransform.swift */; };
+		E7C4CB3493050241CA35DE85 /* Pods_StalkYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7731FB355F563C1A46DE05 /* Pods_StalkYou.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5909ACA1CF99A5400F23BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5909AAD1CF99A5400F23BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5909AB41CF99A5400F23BF2;
+			remoteInfo = StalkYou;
+		};
+		C5909AD51CF99A5400F23BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5909AAD1CF99A5400F23BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5909AB41CF99A5400F23BF2;
+			remoteInfo = StalkYou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F440F1F545402F76742BEF9 /* Pods-StalkYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StalkYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StalkYou/Pods-StalkYou.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7731FB355F563C1A46DE05 /* Pods_StalkYou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StalkYou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB02492D487077187BEA0E30 /* Pods-StalkYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StalkYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-StalkYou/Pods-StalkYou.release.xcconfig"; sourceTree = "<group>"; };
+		C5909AB51CF99A5400F23BF2 /* StalkYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StalkYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5909AB81CF99A5400F23BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5909ABA1CF99A5400F23BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5909ABD1CF99A5400F23BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5909ABF1CF99A5400F23BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5909AC21CF99A5400F23BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5909AC41CF99A5400F23BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5909AC91CF99A5400F23BF2 /* StalkYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StalkYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5909ACD1CF99A5400F23BF2 /* StalkYouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkYouTests.swift; sourceTree = "<group>"; };
+		C5909ACF1CF99A5400F23BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5909AD41CF99A5400F23BF2 /* StalkYouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StalkYouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5909AD81CF99A5400F23BF2 /* StalkYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkYouUITests.swift; sourceTree = "<group>"; };
+		C5909ADA1CF99A5400F23BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5909AEE1CF9A25F00F23BF2 /* ShadowedContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedContainerView.swift; sourceTree = "<group>"; };
+		C5909AF01CF9A47400F23BF2 /* PostCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCard.xib; sourceTree = "<group>"; };
+		C5909AF21CF9A5E600F23BF2 /* PostCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		C5909AF41CF9A7E500F23BF2 /* Lobster_1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster_1.3.otf; sourceTree = "<group>"; };
+		C5909AF51CF9A7E500F23BF2 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		C5909AF61CF9A7E500F23BF2 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		C5909AF71CF9A7E500F23BF2 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		C5909AF81CF9A7E500F23BF2 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		C5909AFE1CF9AA1200F23BF2 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		C5909B001CF9AD0700F23BF2 /* InstagramRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramRouter.swift; sourceTree = "<group>"; };
+		C5909B021CF9B48600F23BF2 /* MediaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		C5909B041CF9B49600F23BF2 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		C5DA81881CFAE8D00038E822 /* ArrayTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTransform.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5909AB21CF99A5400F23BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4CB3493050241CA35DE85 /* Pods_StalkYou.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AC61CF99A5400F23BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AD11CF99A5400F23BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B64918DE119F991126A80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7731FB355F563C1A46DE05 /* Pods_StalkYou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9F07415844F13C35FB8B24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F440F1F545402F76742BEF9 /* Pods-StalkYou.debug.xcconfig */,
+				AB02492D487077187BEA0E30 /* Pods-StalkYou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5909AAC1CF99A5400F23BF2 = {
+			isa = PBXGroup;
+			children = (
+				C5909AB71CF99A5400F23BF2 /* StalkYou */,
+				C5909ACC1CF99A5400F23BF2 /* StalkYouTests */,
+				C5909AD71CF99A5400F23BF2 /* StalkYouUITests */,
+				C5909AB61CF99A5400F23BF2 /* Products */,
+				AD9F07415844F13C35FB8B24 /* Pods */,
+				51B64918DE119F991126A80A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5909AB61CF99A5400F23BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AB51CF99A5400F23BF2 /* StalkYou.app */,
+				C5909AC91CF99A5400F23BF2 /* StalkYouTests.xctest */,
+				C5909AD41CF99A5400F23BF2 /* StalkYouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5909AB71CF99A5400F23BF2 /* StalkYou */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AE81CF9A19100F23BF2 /* Feed */,
+				C5909AE91CF9A22900F23BF2 /* assets */,
+				C5909AEA1CF9A22900F23BF2 /* common */,
+				C5909AB81CF99A5400F23BF2 /* AppDelegate.swift */,
+				C5909ABA1CF99A5400F23BF2 /* ViewController.swift */,
+				C5909ABC1CF99A5400F23BF2 /* Main.storyboard */,
+				C5909ABF1CF99A5400F23BF2 /* Assets.xcassets */,
+				C5909AC11CF99A5400F23BF2 /* LaunchScreen.storyboard */,
+				C5909AC41CF99A5400F23BF2 /* Info.plist */,
+			);
+			path = StalkYou;
+			sourceTree = "<group>";
+		};
+		C5909ACC1CF99A5400F23BF2 /* StalkYouTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5909ACD1CF99A5400F23BF2 /* StalkYouTests.swift */,
+				C5909ACF1CF99A5400F23BF2 /* Info.plist */,
+			);
+			path = StalkYouTests;
+			sourceTree = "<group>";
+		};
+		C5909AD71CF99A5400F23BF2 /* StalkYouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AD81CF99A5400F23BF2 /* StalkYouUITests.swift */,
+				C5909ADA1CF99A5400F23BF2 /* Info.plist */,
+			);
+			path = StalkYouUITests;
+			sourceTree = "<group>";
+		};
+		C5909AE81CF9A19100F23BF2 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AF01CF9A47400F23BF2 /* PostCard.xib */,
+				C5909AF21CF9A5E600F23BF2 /* PostCard.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C5909AE91CF9A22900F23BF2 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AF41CF9A7E500F23BF2 /* Lobster_1.3.otf */,
+				C5909AF51CF9A7E500F23BF2 /* Montserrat-Bold.otf */,
+				C5909AF61CF9A7E500F23BF2 /* Montserrat-Light.otf */,
+				C5909AF71CF9A7E500F23BF2 /* Montserrat-Regular.otf */,
+				C5909AF81CF9A7E500F23BF2 /* Montserrat-SemiBold.otf */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		C5909AEA1CF9A22900F23BF2 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AEB1CF9A22900F23BF2 /* Models */,
+				C5909AEC1CF9A22900F23BF2 /* Router */,
+				C5909AED1CF9A22900F23BF2 /* Views */,
+				C5DA81881CFAE8D00038E822 /* ArrayTransform.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		C5909AEB1CF9A22900F23BF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5909B021CF9B48600F23BF2 /* MediaModel.swift */,
+				C5909B041CF9B49600F23BF2 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5909AEC1CF9A22900F23BF2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AFE1CF9AA1200F23BF2 /* BaseRouter.swift */,
+				C5909B001CF9AD0700F23BF2 /* InstagramRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C5909AED1CF9A22900F23BF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5909AEE1CF9A25F00F23BF2 /* ShadowedContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5909AB41CF99A5400F23BF2 /* StalkYou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5909ADD1CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYou" */;
+			buildPhases = (
+				47163DE1C90D71CD77C239AC /* Check Pods Manifest.lock */,
+				C5909AB11CF99A5400F23BF2 /* Sources */,
+				C5909AB21CF99A5400F23BF2 /* Frameworks */,
+				C5909AB31CF99A5400F23BF2 /* Resources */,
+				68F04EC40D685497D64FEB3D /* Embed Pods Frameworks */,
+				F18B70A4530EB41CCC8B115E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StalkYou;
+			productName = StalkYou;
+			productReference = C5909AB51CF99A5400F23BF2 /* StalkYou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5909AC81CF99A5400F23BF2 /* StalkYouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5909AE01CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYouTests" */;
+			buildPhases = (
+				C5909AC51CF99A5400F23BF2 /* Sources */,
+				C5909AC61CF99A5400F23BF2 /* Frameworks */,
+				C5909AC71CF99A5400F23BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5909ACB1CF99A5400F23BF2 /* PBXTargetDependency */,
+			);
+			name = StalkYouTests;
+			productName = StalkYouTests;
+			productReference = C5909AC91CF99A5400F23BF2 /* StalkYouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5909AD31CF99A5400F23BF2 /* StalkYouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5909AE31CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYouUITests" */;
+			buildPhases = (
+				C5909AD01CF99A5400F23BF2 /* Sources */,
+				C5909AD11CF99A5400F23BF2 /* Frameworks */,
+				C5909AD21CF99A5400F23BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5909AD61CF99A5400F23BF2 /* PBXTargetDependency */,
+			);
+			name = StalkYouUITests;
+			productName = StalkYouUITests;
+			productReference = C5909AD41CF99A5400F23BF2 /* StalkYouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5909AAD1CF99A5400F23BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Neha Yadav";
+				TargetAttributes = {
+					C5909AB41CF99A5400F23BF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4CTBVD9BRZ;
+					};
+					C5909AC81CF99A5400F23BF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4CTBVD9BRZ;
+						TestTargetID = C5909AB41CF99A5400F23BF2;
+					};
+					C5909AD31CF99A5400F23BF2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4CTBVD9BRZ;
+						TestTargetID = C5909AB41CF99A5400F23BF2;
+					};
+				};
+			};
+			buildConfigurationList = C5909AB01CF99A5400F23BF2 /* Build configuration list for PBXProject "StalkYou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5909AAC1CF99A5400F23BF2;
+			productRefGroup = C5909AB61CF99A5400F23BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5909AB41CF99A5400F23BF2 /* StalkYou */,
+				C5909AC81CF99A5400F23BF2 /* StalkYouTests */,
+				C5909AD31CF99A5400F23BF2 /* StalkYouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5909AB31CF99A5400F23BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5909AC31CF99A5400F23BF2 /* LaunchScreen.storyboard in Resources */,
+				C5909AF11CF9A47400F23BF2 /* PostCard.xib in Resources */,
+				C5909AC01CF99A5400F23BF2 /* Assets.xcassets in Resources */,
+				C5909AFD1CF9A7E500F23BF2 /* Montserrat-SemiBold.otf in Resources */,
+				C5909AFC1CF9A7E500F23BF2 /* Montserrat-Regular.otf in Resources */,
+				C5909ABE1CF99A5400F23BF2 /* Main.storyboard in Resources */,
+				C5909AF91CF9A7E500F23BF2 /* Lobster_1.3.otf in Resources */,
+				C5909AFB1CF9A7E500F23BF2 /* Montserrat-Light.otf in Resources */,
+				C5909AFA1CF9A7E500F23BF2 /* Montserrat-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AC71CF99A5400F23BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AD21CF99A5400F23BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47163DE1C90D71CD77C239AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68F04EC40D685497D64FEB3D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StalkYou/Pods-StalkYou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18B70A4530EB41CCC8B115E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StalkYou/Pods-StalkYou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5909AB11CF99A5400F23BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5909ABB1CF99A5400F23BF2 /* ViewController.swift in Sources */,
+				C5909AF31CF9A5E600F23BF2 /* PostCard.swift in Sources */,
+				C5DA81891CFAE8D00038E822 /* ArrayTransform.swift in Sources */,
+				C5909AFF1CF9AA1200F23BF2 /* BaseRouter.swift in Sources */,
+				C5909B031CF9B48600F23BF2 /* MediaModel.swift in Sources */,
+				C5909B011CF9AD0700F23BF2 /* InstagramRouter.swift in Sources */,
+				C5909AB91CF99A5400F23BF2 /* AppDelegate.swift in Sources */,
+				C5909B051CF9B49600F23BF2 /* ResponseModel.swift in Sources */,
+				C5909AEF1CF9A25F00F23BF2 /* ShadowedContainerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AC51CF99A5400F23BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5909ACE1CF99A5400F23BF2 /* StalkYouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5909AD01CF99A5400F23BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5909AD91CF99A5400F23BF2 /* StalkYouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5909ACB1CF99A5400F23BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5909AB41CF99A5400F23BF2 /* StalkYou */;
+			targetProxy = C5909ACA1CF99A5400F23BF2 /* PBXContainerItemProxy */;
+		};
+		C5909AD61CF99A5400F23BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5909AB41CF99A5400F23BF2 /* StalkYou */;
+			targetProxy = C5909AD51CF99A5400F23BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5909ABC1CF99A5400F23BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5909ABD1CF99A5400F23BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5909AC11CF99A5400F23BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5909AC21CF99A5400F23BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5909ADB1CF99A5400F23BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5909ADC1CF99A5400F23BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5909ADE1CF99A5400F23BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F440F1F545402F76742BEF9 /* Pods-StalkYou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StalkYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5909ADF1CF99A5400F23BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB02492D487077187BEA0E30 /* Pods-StalkYou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StalkYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5909AE11CF99A5400F23BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StalkYouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StalkYou.app/StalkYou";
+			};
+			name = Debug;
+		};
+		C5909AE21CF99A5400F23BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StalkYouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StalkYou.app/StalkYou";
+			};
+			name = Release;
+		};
+		C5909AE41CF99A5400F23BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StalkYouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StalkYou;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5909AE51CF99A5400F23BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StalkYouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalkyou.StalkYouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StalkYou;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5909AB01CF99A5400F23BF2 /* Build configuration list for PBXProject "StalkYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5909ADB1CF99A5400F23BF2 /* Debug */,
+				C5909ADC1CF99A5400F23BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5909ADD1CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5909ADE1CF99A5400F23BF2 /* Debug */,
+				C5909ADF1CF99A5400F23BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5909AE01CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5909AE11CF99A5400F23BF2 /* Debug */,
+				C5909AE21CF99A5400F23BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5909AE31CF99A5400F23BF2 /* Build configuration list for PBXNativeTarget "StalkYouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5909AE41CF99A5400F23BF2 /* Debug */,
+				C5909AE51CF99A5400F23BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5909AAD1CF99A5400F23BF2 /* Project object */;
+}
